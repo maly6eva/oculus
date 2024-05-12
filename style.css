@@ -1,0 +1,45 @@
+
+
+body {
+    color: red;
+}
+h1{
+    font-size: 5em;
+}
+.container {
+    display: grid;
+    gap: 10px 20px;
+    grid-template-columns: 1fr  50px;
+
+    grid-template-areas:
+          'header   header   header  side'
+          'article  article  .       side'
+          'footer    footer  footer  footer';
+}
+
+.container > * {
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+header {
+    background-color: lightgray;
+    grid-area: header;
+}
+
+article {
+    background-color: #d9d992;
+    grid-area: article;
+
+
+}
+
+aside {
+    background-color: #92d996;
+    grid-area: side;
+}
+
+footer {
+    background-color: #ec7676;
+    grid-area: footer;
+}
