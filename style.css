@@ -23,7 +23,7 @@ h1{
 }
 
 header {
-    background-color: lightgray;
+    background-color: #1a29d0;
     grid-area: header;
 }
 
