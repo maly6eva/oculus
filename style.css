@@ -13,7 +13,7 @@ h1{
 
     grid-template-areas:
           'header   header   header  side'
-          'article  article  .       side'
+          'article  article   article  side'
           'footer    footer  footer  footer';
 }
 
